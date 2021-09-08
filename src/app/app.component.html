@@ -1,13 +1,3 @@
-<!-- <div>
-  <ul >
-    <li *ngFor="let data of apiData">
-      {{data.name}}
-    </li>
-  </ul>
-
-  <router-outlet></router-outlet>
-</div> -->
-
 <ul class="lists">
   <li *ngFor="let x of apiUserData | async" (click)="display()">
     {{x.name}}
